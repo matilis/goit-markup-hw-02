@@ -48,11 +48,30 @@ a[href='tel:+48111111111'] {
 a[href='tel:+48111111111']:hover {
   color: #2196f3;
 }
-footer {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
+h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  color: #ffffff;
+}
+button {
+  width: 200px;
+  height: 50px;
+  background-color: #f5f4fa;
+  border: none;
+  color: #212121;
+  padding: 10px 41px 10px 42px;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+}
+button:hover {
+  background-color: #2196f3;
+  color: #ffffff;
 }
 .highlight-footer {
   color: #ffffff;
