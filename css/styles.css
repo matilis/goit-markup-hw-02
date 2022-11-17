@@ -10,11 +10,13 @@ header {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .logo {
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 .highlight-web {
   color: #2196f3;
@@ -52,7 +54,9 @@ h1 {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  letter-spacing: 0.06em;
   color: #ffffff;
+  text-align: center;
 }
 button {
   width: 200px;
@@ -60,7 +64,6 @@ button {
   background-color: #f5f4fa;
   border: none;
   color: #212121;
-  padding: 10px 41px 10px 42px;
   border-radius: 4px;
   text-align: center;
   text-decoration: none;
@@ -68,11 +71,49 @@ button {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
+  letter-spacing: 0.06em;
 }
 button:hover {
   background-color: #2196f3;
   color: #ffffff;
 }
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.hide {
+  display: none;
+}
+li h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+li p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.names {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+.jobs {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
 .highlight-footer {
   color: #ffffff;
 }
@@ -83,6 +124,7 @@ a[href="https://goo.gl/maps/mivUpqcJWEY4cBys6"]
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 a[href='mailto:info@example.com'] {
   font-family: 'Roboto';
@@ -90,6 +132,7 @@ a[href='mailto:info@example.com'] {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 a[href='tel:0048111111111'] {
@@ -98,6 +141,7 @@ a[href='tel:0048111111111'] {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 
