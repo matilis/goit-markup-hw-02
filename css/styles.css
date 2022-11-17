@@ -1,5 +1,87 @@
 body {
   font-family: 'Roboto', sans-serif;
+  color: #212121;
+  background-color: #ffffff;
+}
+a[href] {
+  text-decoration: none;
+}
+header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.highlight-web {
+  color: #2196f3;
+}
+.highlight-header {
+  color: #000000;
+}
+a[href='portfolio.html']:hover {
+  color: #2196f3;
+}
+nav a,
+li {
+  color: #212121;
+}
+li a:hover {
+  color: #2196f3;
+}
+:focus {
+  background-color: #ff0000;
+  outline: none;
+}
+a[href='mailto:info@devstudio.com'] {
+  color: #212121;
+}
+a[href='mailto:info@devstudio.com']:hover {
+  color: #2196f3;
+}
+a[href='tel:+48111111111'] {
+  color: #757575;
+}
+a[href='tel:+48111111111']:hover {
+  color: #2196f3;
+}
+footer {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.highlight-footer {
+  color: #ffffff;
+}
+a[href="https://goo.gl/maps/mivUpqcJWEY4cBys6"]
+{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+a[href='mailto:info@example.com'] {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+a[href='tel:0048111111111'] {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
 }
 
-font-family: 'Raleway', sans-serif;
+a[href='index.html']:hover {
+  color: #2196f3;
+}
