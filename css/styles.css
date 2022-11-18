@@ -57,21 +57,19 @@ h1 {
   letter-spacing: 0.06em;
   color: #ffffff;
   text-align: center;
+  text-transform: uppercase;
 }
-button {
-  width: 200px;
-  height: 50px;
-  background-color: #f5f4fa;
-  border: none;
-  color: #212121;
-  border-radius: 4px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
+.button1 {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
+}
+.button2 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
 }
 button:hover {
   background-color: #2196f3;
@@ -87,13 +85,13 @@ h2 {
 .hide {
   display: none;
 }
-li h3 {
+.title-descrition {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
 }
-li p {
+.descrition {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -113,7 +111,19 @@ li p {
   letter-spacing: 0.03em;
   color: #757575;
 }
-
+.title-gallery {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.gallery {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
 .highlight-footer {
   color: #ffffff;
 }
@@ -147,4 +157,7 @@ a[href='tel:0048111111111'] {
 
 a[href='index.html']:hover {
   color: #2196f3;
+}
+nav ul[type='button'] {
+  text-decoration: line-through;
 }
