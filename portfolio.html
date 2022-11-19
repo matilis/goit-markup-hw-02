@@ -13,27 +13,22 @@
       rel="stylesheet"
     />
     <!-- END Google Fonts Link s-->
-
     <link href="css/styles.css" rel="stylesheet" />
   </head>
   <body>
     <header>
       <!--Logo-->
-      <div class="logo">
-        <a href="index.html"
-          ><span class="highlight-web">Web</span><span class="highlight-header">Studio</span></a
-        >
-      </div>
+      <a href="index.html"
+        ><span class="highlight-web">Web</span><span class="highlight-header">Studio</span></a
+      >
       <nav>
-        <a href="index.html"><span class="subpage">Main page</span></a>
         <!--Links-->
-
-        <ul>
-          <li class="menu-item">
-            <a href="#">Agencja</a>
+        <ul class="list-style">
+          <li>
+            <a href="index.html">Agencja</a>
           </li>
           <li>
-            <a href="#">Portfolio</a>
+            <a href="portfolio.html">Portfolio</a>
           </li>
           <li>
             <a href="#contact">Kontakt</a>
@@ -46,10 +41,10 @@
         <a href="tel:+48111111111">+48 111 111 111</a>
       </div>
     </header>
-
     <main>
-      <!--Five Buttons-->
-      <div>
+      <section>
+        <h1 class="visually-hidden">Portfolio</h1>
+        <!--Five Buttons-->
         <ul>
           <li><button class="button button2" type="button">Wszystkie</button></li>
           <li><button class="button button2" type="button">Strony</button></li>
@@ -57,10 +52,7 @@
           <li><button class="button button2" type="button">Dizajn</button></li>
           <li><button class="button button2" type="button">Marketing</button></li>
         </ul>
-      </div>
-
-      <!--Gallery-->
-      <section>
+        <!--Gallery-->
         <ul>
           <li>
             <img
@@ -69,7 +61,7 @@
               width="370"
               height="294"
             />
-            <h3 class="title-gallery">Technocrack</h3>
+            <h3 class="gallery-title">Technocrack</h3>
             <p class="gallery">Strona internetowa</p>
           </li>
           <li>
@@ -79,22 +71,22 @@
               width="370"
               height="294"
             />
-            <h3 class="title-gallery">Grafika New Orlean vs Golden Star</h3>
+            <h3 class="gallery-title">Grafika New Orlean vs Golden Star</h3>
             <p class="gallery">Dizajn</p>
           </li>
           <li>
             <img src="images/img3.jpg" alt="Seafoot restaurant logo" width="370" height="294" />
-            <h3 class="title-gallery">Restauracja Seafood</h3>
+            <h3 class="gallery-title">Restauracja Seafood</h3>
             <p class="gallery">Aplikacja</p>
           </li>
           <li>
             <img src="images/img4.jpg" alt="Picture of headphones" width="370" height="294" />
-            <h3 class="title-gallery">Projekt Prime</h3>
+            <h3 class="gallery-title">Projekt Prime</h3>
             <p class="gallery">Marketing</p>
           </li>
           <li>
             <img src="images/img5.jpg" alt="Two Boxes" width="370" height="294" />
-            <h3 class="title-gallery">Projekt Boxes</h3>
+            <h3 class="gallery-title">Projekt Boxes</h3>
             <p class="gallery">Aplikacja</p>
           </li>
           <li>
@@ -104,17 +96,17 @@
               width="370"
               height="294"
             />
-            <h3 class="title-gallery">Inspiration has no Borders</h3>
+            <h3 class="gallery-title">Inspiration has no Borders</h3>
             <p class="gallery">Strona internetowa</p>
           </li>
           <li>
             <img src="images/img7.jpg" alt="Open newspaper" width="370" height="294" />
-            <h3 class="title-gallery">Magazyn Limited Edition</h3>
+            <h3 class="gallery-title">Magazyn Limited Edition</h3>
             <p class="gallery">Dizajn</p>
           </li>
           <li>
             <img src="images/img8.jpg" alt="Business card on a string" width="370" height="294" />
-            <h3 class="title-gallery">Projekt LAB</h3>
+            <h3 class="gallery-title">Projekt LAB</h3>
             <p class="gallery">Marketing</p>
           </li>
           <li>
@@ -124,21 +116,18 @@
               width="370"
               height="294"
             />
-            <h3 class="title-gallery">Growing Business</h3>
+            <h3 class="gallery-title">Growing Business</h3>
             <p class="gallery">Aplikacja</p>
           </li>
         </ul>
       </section>
     </main>
-
     <footer>
       <!--Logo+Contact-->
-      <div class="logo">
+      <address class="communication" id="contact">
         <a href="index.html"
           ><span class="highlight-web">Web</span><span class="highlight-footer">Studio</span></a
         >
-      </div>
-      <address id="contact">
         <ul>
           <li>
             <a href="https://goo.gl/maps/mivUpqcJWEY4cBys6" target="_blank" rel="noopener nofollow"
