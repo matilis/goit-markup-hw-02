@@ -18,27 +18,27 @@
   <body>
     <header>
       <!--Logo-->
-      <a href="index.html"
+      <a class="logo" href="index.html"
         ><span class="highlight-web">Web</span><span class="highlight-header">Studio</span></a
       >
       <nav>
         <!--Links-->
-        <ul class="list-style">
-          <li>
-            <a href="index.html">Agencja</a>
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Agencja</a>
           </li>
-          <li>
-            <a href="portfolio.html">Portfolio</a>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
           </li>
-          <li>
-            <a href="#contact">Kontakt</a>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Kontakt</a>
           </li>
         </ul>
       </nav>
-      <div>
+      <div class="contact-list">
         <!--Contact-->
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a href="tel:+48111111111">+48 111 111 111</a>
+        <a class="contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <a class="contact-link" href="tel:+48111111111">+48 111 111 111</a>
       </div>
     </header>
     <main>
@@ -46,11 +46,11 @@
         <h1 class="visually-hidden">Portfolio</h1>
         <!--Five Buttons-->
         <ul>
-          <li><button class="button button2" type="button">Wszystkie</button></li>
-          <li><button class="button button2" type="button">Strony</button></li>
-          <li><button class="button button2" type="button">Aplikacje</button></li>
-          <li><button class="button button2" type="button">Dizajn</button></li>
-          <li><button class="button button2" type="button">Marketing</button></li>
+          <li><button class="button2" type="button">Wszystkie</button></li>
+          <li><button class="button2" type="button">Strony</button></li>
+          <li><button class="button2" type="button">Aplikacje</button></li>
+          <li><button class="button2" type="button">Dizajn</button></li>
+          <li><button class="button2" type="button">Marketing</button></li>
         </ul>
         <!--Gallery-->
         <ul>
@@ -124,18 +124,26 @@
     </main>
     <footer>
       <!--Logo+Contact-->
-      <address class="communication" id="contact">
-        <a href="index.html"
+      <address class="contact-footer" id="contact">
+        <a class="logo" href="index.html"
           ><span class="highlight-web">Web</span><span class="highlight-footer">Studio</span></a
         >
-        <ul>
-          <li>
-            <a href="https://goo.gl/maps/mivUpqcJWEY4cBys6" target="_blank" rel="noopener nofollow"
+        <ul class="contact-footer-list">
+          <li class="contact-footer-item">
+            <a
+              class="contact-footer-link-map"
+              href="https://goo.gl/maps/mivUpqcJWEY4cBys6"
+              target="_blank"
+              rel="noopener nofollow"
               >m. Warszawa, Aleje Jerozolimskie 21</a
             >
           </li>
-          <li><a href="mailto:info@example.com">info@example.com</a></li>
-          <li><a href="tel:0048111111111">+48 111 111 111</a></li>
+          <li class="contact-footer-item">
+            <a class="contact-footer-link" href="mailto:info@example.com">info@example.com</a>
+          </li>
+          <li class="contact-footer-item">
+            <a class="contact-footer-link" href="tel:0048111111111">+48 111 111 111</a>
+          </li>
         </ul>
       </address>
     </footer>

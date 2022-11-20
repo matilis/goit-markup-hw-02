@@ -7,8 +7,6 @@
   --backlight-color: #2196f3;
   --principal-color: #2f303a;
   --team-color: #f5f4fa;
-  background: #eeeeee;
-  background: #ececec;
 }
 :focus {
   background-color: var(--backlight-color);
@@ -21,63 +19,41 @@ body {
   font-size: 14px;
   letter-spacing: 0.03em;
 }
-.highlight-web {
+.logo {
+  text-decoration: none;
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
   line-height: 1.19;
+}
+.highlight-web {
   color: var(--backlight-color);
 }
 .highlight-header {
-  font-family: 'Raleway', sans-serif;
-  font-size: 26px;
-  line-height: 1.19;
   color: var(--secondary-color);
 }
 ul {
   list-style: none;
 }
-a[href='index.html'] {
-  text-decoration: none;
+.nav-item {
   font-weight: 500;
   font-size: 14px;
-  color: var(--main-color);
-  cursor: pointer;
+  letter-spacing: 0.02em;
 }
-a[href='index.html']:hover {
-  color: var(--backlight-color);
-}
-a[href='portfolio.html'] {
+.nav-link {
   text-decoration: none;
-  font-weight: 500;
-  font-size: 14px;
   color: var(--main-color);
-  cursor: pointer;
 }
-a[href='portfolio.html']:hover {
+.nav-link:hover {
   color: var(--backlight-color);
 }
-a[href='#contact'] {
-  text-decoration: none;
-  font-weight: 500;
-  font-size: 14px;
-  color: var(--main-color);
-  cursor: pointer;
+.contact-list {
+  letter-spacing: 0.02em;
 }
-a[href='#contact']:hover {
-  color: var(--backlight-color);
-}
-a[href='mailto:info@devstudio.com'] {
+.contact-link {
   text-decoration: none;
   color: var(--third-color);
 }
-a[href='mailto:info@devstudio.com']:hover {
-  color: var(--backlight-color);
-}
-a[href='tel:+48111111111'] {
-  text-decoration: none;
-  color: var(--third-color);
-}
-a[href='tel:+48111111111']:hover {
+.contact-link:hover {
   color: var(--backlight-color);
 }
 .principal {
@@ -98,20 +74,25 @@ a[href='tel:+48111111111']:hover {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
+  color: var(--background-color);
+  background-color: var(--backlight-color);
+  cursor: pointer;
+}
+.button1:hover {
   color: var(--main-color);
   background-color: var(--team-color);
-  cursor: pointer;
 }
 .button2 {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  letter-spacing: 0.03em;
   color: var(--main-color);
   background-color: var(--team-color);
   cursor: pointer;
 }
-button:hover {
+.button2:hover {
   background-color: var(--backlight-color);
   color: var(--background-color);
 }
@@ -131,23 +112,20 @@ button:focus {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.doing-section {
+.title-section {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
 }
 .team-section {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
   background-color: var(--team-color);
 }
 .descrition-title {
   font-weight: 700;
+  font-size: 14px;
   line-height: 1.14;
 }
 .descrition {
-  font-weight: 400;
   line-height: 1.71;
   color: var(--third-color);
 }
@@ -157,7 +135,6 @@ button:focus {
   line-height: 1.18;
 }
 .jobs {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   color: var(--third-color);
@@ -169,12 +146,11 @@ button:focus {
   letter-spacing: 0.06em;
 }
 .gallery {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   color: var(--third-color);
 }
-.communication {
+.contact-footer {
   font-style: normal;
   background-color: var(--principal-color);
 }
@@ -184,35 +160,19 @@ button:focus {
   line-height: 1.19;
   color: var(--background-color);
 }
-a[href="https://goo.gl/maps/mivUpqcJWEY4cBys6"]
-{
+.contact-footer-link-map {
   text-decoration: none;
-  font-weight: 400;
   line-height: 1.71;
   color: var(--background-color);
-  cursor: pointer;
 }
-a[href='mailto:info@example.com'] {
-  text-decoration: none;
-  font-weight: 400;
-  line-height: 1.71;
-  color: var(--accent-color);
-  cursor: pointer;
-}
-a[href='tel:0048111111111'] {
-  text-decoration: none;
-  font-size: 14px;
-  line-height: 1.71;
-  color: var(--accent-color);
-  cursor: pointer;
-}
-a[href="https://goo.gl/maps/mivUpqcJWEY4cBys6"]:hover
-{
+.contact-footer-link-map:hover {
   color: var(--backlight-color);
 }
-a[href='mailto:info@example.com']:hover {
-  color: var(--backlight-color);
+.contact-footer-link {
+  text-decoration: none;
+  line-height: 1.71;
+  color: var(--accent-color);
 }
-a[href='tel:0048111111111']:hover {
+.contact-footer-link:hover {
   color: var(--backlight-color);
 }
